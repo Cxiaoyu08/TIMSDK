@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   spec.libraries    = 'stdc++'
 
   spec.dependency 'MMLayout','0.2.0'
-  spec.dependency 'SDWebImage','5.5.2'
+  #spec.dependency 'SDWebImage','5.5.2'
   spec.dependency 'ReactiveObjC','3.1.1'
   spec.dependency 'Toast','4.0.0'
   spec.dependency 'ISVImageScrollView','0.1.2'
@@ -30,7 +30,7 @@ Pod::Spec.new do |spec|
   spec.dependency 'Alamofire','4.9.1'
   spec.dependency 'TXLiteAVSDK_TRTC','7.3.9138'
   spec.dependency 'TXIMSDK_iOS','4.8.50'
-  
+  spec.dependency 'TZImagePickerController'
   spec.requires_arc = true
 
   spec.source = { :http => 'https://imsdk-1252463788.cos.ap-guangzhou.myqcloud.com/4.8.50/TIM_SDK_TUIKIT_iOS_latest_framework.zip'}
